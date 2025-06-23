@@ -42,6 +42,16 @@
                * ex: Abdallah_Sayed
              */
             #endregion
+            #region Variable Declaration
+            // Variable --> camelCase
+            // DataType Name Value
+            //int myNum = 10;
+            //Console.WriteLine(myNum);
+            //int myNum1 = 20, myNum2 = 30;
+            //Console.WriteLine("Sum = "+ (myNum1 + myNum2));
+            //string @class = "Abdol"; 
+            //    Console.WriteLine( @class ); 
+            #endregion
 
         }
     }
