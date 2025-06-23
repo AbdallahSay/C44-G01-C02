@@ -30,6 +30,18 @@
 
             //}
             #endregion
+            #region Naming Conventions
+            /*
+               *1)Pascal Case [C#]
+                    ex: AbdallahSayed
+               *2)camelCase [js]
+               * ex: abdallahSayed
+               * 3)  Kebab-case
+               * ex: Abdallah-Sayed
+               * 4)  Snake_Case
+               * ex: Abdallah_Sayed
+             */
+            #endregion
 
         }
     }
