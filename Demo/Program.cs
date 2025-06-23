@@ -52,7 +52,27 @@
             //string @class = "Abdol"; 
             //    Console.WriteLine( @class ); 
             #endregion
-
+            #region CTS
+            // value type 
+            /*
+             * retrive faster
+             * use struct , enum 
+             * primitive
+             * stack memory
+             * int x = 10 , y = 20
+             * x=y -- copy values x,y = 20
+             * 
+            */
+            // Reference Type
+            /*
+             * retrive slower
+             * use class , interface 
+             * non-primitive
+             * stack to save address , heap to save values
+             *  int x = 10 , y = 20 ; 
+             *  x = y -- copy address
+             */
+            #endregion
         }
     }
 }
