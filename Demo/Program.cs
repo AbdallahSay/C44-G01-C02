@@ -82,6 +82,39 @@
             //short = Int16
             //long  = Int64
             #endregion
+            #region Value Type
+            // Primitive DataType
+            //int x = 10; // C# Keyword [alias]
+            //Int32 y = 23; // BCL
+            //Single mySingle = 20.1f; // BCL
+            //float myFloat = 20.1f; // C# Keyword [alias]
+            //int x; // declare Varable [unintialized] allocate 4 byte in stack
+            //x = 10; // Assign value in stack
+            //Int32 y = 20;
+            //Console.WriteLine(x); // 10
+            //Console.WriteLine(y); // 20
+            //y = x;
+            //Console.WriteLine();
+            //Console.WriteLine(x); // 10
+            //Console.WriteLine(y); // 10
+
+            //x = 30;
+            //Console.WriteLine();
+            //Console.WriteLine(x); // 30 
+            //Console.WriteLine(y); // 10  
+            /// why ? copy value not addres
+
+            //string fName = "Abdallah"; // c# keyword
+            //String lName = "Sayed"; //BCL
+            //Console.Write("My name is : " + fName +" "+ lName);
+            //Console.Read();
+
+
+
+
+
+
+            #endregion
         }
     }
 }
