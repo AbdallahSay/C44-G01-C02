@@ -73,6 +73,15 @@
              *  x = y -- copy address
              */
             #endregion
+            #region DataType
+            // int  = Int32
+            //int myNum = 1; 
+            //Int32 myNum2 = 2;
+            //Console.WriteLine(myNum);
+            //Console.WriteLine(myNum2);
+            //short = Int16
+            //long  = Int64
+            #endregion
         }
     }
 }
