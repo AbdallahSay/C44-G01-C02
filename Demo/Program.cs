@@ -115,6 +115,40 @@
 
 
             #endregion
+            #region Reference Type
+            //point p1; // allocate 4 byte in stack , 0 byte in heap
+            //p1 = new point();
+            /**
+             * 1) allocate number of byte gor the object needed in heap
+             * 2) initialze each filed with the defult value based on DataType
+             * 3) call user defined constructor
+             * 4) assign object to Reference  
+             * 
+             */
+            //Console.WriteLine(p1.x);
+            //Console.WriteLine(p1.y);
+
+            //point p2 = new point() { x = 5 ,  y = 10};
+            //Console.WriteLine();
+            //Console.WriteLine(p2.x);
+            //Console.WriteLine(p2.y);
+
+            //p1 = p2; // 5 10 , 5 10
+            //Console.WriteLine(p1.x);
+            //Console.WriteLine(p1.y);
+            //Console.WriteLine();
+            //Console.WriteLine(p2.x);
+            //Console.WriteLine(p2.y);
+            //p2.x = 20; 
+            //p2.y = 40;
+            //Console.WriteLine();
+            //Console.WriteLine(p1.x);
+            //Console.WriteLine(p1.y);
+            //Console.WriteLine();
+            //Console.WriteLine(p2.x);
+            //Console.WriteLine(p2.y);
+            //Why this Result ?  Copy address not value so p1 is unreachable object now
+            #endregion
         }
     }
 }
